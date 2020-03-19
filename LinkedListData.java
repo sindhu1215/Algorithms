@@ -1,6 +1,3 @@
-package drw.shopping;
-
-
 public class LinkedListData {
 
 	static SinglyLinkedListNode head;
@@ -146,6 +143,7 @@ public class LinkedListData {
 		if(l1 != null || l2 != null) {
 			
 		}
+		return result;
 	}
 
 	public static void main(String[] args) {

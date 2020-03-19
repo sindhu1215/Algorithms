@@ -6,7 +6,7 @@ import java.util.Hashtable;
 import java.util.List;
 import java.util.Map;
 
-import org.apache.commons.lang.StringUtils;
+
 
 public class Algorithm {
 
@@ -76,7 +76,7 @@ public class Algorithm {
 		List<String> ways = new ArrayList<String>();
 		for (int i = 1; i <= input.length(); i++) {
 			String temp = input.substring(0, i);
-			if (StringUtils.isNotBlank(temp)) {
+			if (!temp.isEmpty()) {
 				decodedWays.add(temp);
 			}
 		}
